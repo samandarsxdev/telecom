@@ -1,0 +1,228 @@
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Dongle', sans-serif;
+font-family: 'Fruktur', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Zen Antique Soft', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-content: inherit;
+}
+.header-list p{
+    
+font-family: Golos;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+.header-item:nth-child(1) p{
+    position: relative;
+    left: -60px;
+}
+.header-item:nth-child(2) p{
+    position: relative;
+    left: -40px;
+    color: #06C3A6;
+}
+.header-item:nth-child(3) p{
+    position: relative;
+    left: -20px;
+}
+.header-item:nth-child(4) p{
+    position: relative;
+    /* left: -20px; */
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item:nth-child(1) img{
+    position: relative;
+    left: -20px;
+}
+.item:nth-child(2) form,select,option{
+    border: none;
+  padding: 2px 2px;
+  
+font-family: Golos;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-box-row:nth-child(1) h2{
+    width: 468px;
+    height: 258px;
+    
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 86px;
+}
+.header-box-row:nth-child(1) b{
+    width: 468px;
+    height: 258px;
+    
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 86px;
+    color: #04FAD9;
+}
+.section .container{
+ width: 1140px;
+ margin: 0 auto;
+}
+.section-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.section-box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-box div>p{
+    margin-top: 20px;
+}
+.background-box{
+    width: 1140px;
+    height: 426px;
+    background-image: url("./picture/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+.backgroun-box-header:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.backgroun-box-header h2{
+    width: 500px;
+    height: 48px;
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+.backgroun-box-header p{
+    width: 400px;
+height: 84px;
+font-family: Golos;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.04em;
+
+color: #000000;
+position: relative;
+left: 60px;
+top: 80px;
+}
+.backgroun-box-header:nth-child(1) img{
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.btn{
+    width: 200px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 50px;
+border: none;
+position: relative;
+top: 90px;
+left: 60px;
+
+}
+.backgroun-box-header:nth-child(2) img:nth-child(4){
+    position: relative;
+    left: -80px;
+    width: 166px;
+}
+.backgroun-box-header:nth-child(2) img:nth-child(5){
+    position: relative;
+    left: -60px;
+    width: 146px;
+}
+.backgroun-box-header:nth-child(2) img:nth-child(6){
+    position: relative;
+    left: -60px;
+    width: 166px;
+}
+.main .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 80px 0;    
+}
+.main-box ul{
+    display: flex;
+   padding: 20px 20px;
+}
+.main-box ul>li>p{
+    position: relative;
+    right: -20px;
+}
+.main-box div{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+width: 270px;
+height: 220px;
+background: #F5F5FA;
+border-radius: 25px;
+}
+.group-2-picture{
+    height: 180px;
+}
