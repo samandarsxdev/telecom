@@ -515,3 +515,256 @@ main .container{
     bottom: 40px;
     left: 60px;
 }
+.rasm-null-4{
+    position: relative;
+    top: 190px;
+    right: 190px;
+}
+.rasm-null-5{
+    position: relative;
+    top: 100px;
+    right: 130px;
+}
+.main-null h2{
+width: 500px;
+height: 48px;
+position: relative;
+top: 20px;
+font-family: Golos;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.04em;
+
+/* #1B1A1F */
+
+color: #1B1A1F;
+
+}
+.main-null p{
+    position: relative;
+top: 40px;
+width: 340px;
+height: 84px;
+font-family: Golos;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+.null-btn{
+    position: relative;
+    top: 80px;
+    width: 270px;
+height: 60px;
+background: #FFFFFF;
+border-radius: 50px;
+border: none;
+}
+.footer .container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.foter-box{
+    display: flex;
+    position: relative;
+    top: 300px;
+}
+.foter-box h2{
+    
+width: 163px;
+height: 48px;
+
+
+font-family: Golos;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.04em;
+border-bottom: 2px solid #000000;
+
+
+/* #1B1A1F */
+}
+.foter-box h3{
+    width: 261px;
+height: 48px;
+font-family: Golos;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.04em;
+
+/* #E1E1E6 */
+
+color: #E1E1E6;
+position: relative;
+left: 25px;
+top: 4px;
+}
+.footer-main{
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box-main{
+    width: 250px;
+height: 177px;;
+
+background: #F5F5FA;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+flex-direction: column;
+}
+.footer-box-main h6{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0.5;
+}
+.footer-box-main p{
+    position: relative;
+    left: 15px;
+    width: 242px;
+    opacity: 0.8;
+
+}
+.footer-box-main img{
+    width: 76px;
+    position: relative;
+    left: 90px;
+}
+.footer-box-main h5{
+    text-align: center;
+    position: relative;
+    bottom:10px;
+}
+.footer-row{
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-row p{
+    width: 570px;
+height: 72px;
+text-align: center;
+font-family: Golos;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+position: relative;
+top: 20px;
+opacity: 0.9;
+}
+.footer-row h2{
+    
+width: 770px;
+height: 44px;
+
+
+
+font-family: Golos;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+
+text-align: center;
+letter-spacing: 0.04em;
+}
+.footer-row-btn{
+    width: 270px;
+height: 60px;
+
+background: #FFFFFF;
+/* #06C3A6 */
+position: relative;
+top: 30px;
+border: 2px solid #06C3A6;
+box-sizing: border-box;
+border-radius: 50px;
+}
+.girl-1{
+    position: relative;
+    right: 400px;
+    bottom:170px;
+}
+.girl-2{
+    position: relative;
+    left: 430px;
+    bottom:470px;
+    width:400px;
+}
+.footer-col-md{
+    position: relative;
+    top: 300px;
+    border-top: 2px solid #000000;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 50px 10px;
+}
+.footer-item:nth-child(1) p{
+    position: relative;
+    top: 15px;
+
+}
+.oxiridagi-fotolar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+    top: 30px;
+    width: 160px;
+}
+.footer-item:nth-child(5) a:nth-child(1){
+   position: relative;
+   top: 40px;
+  
+}
+.footer-item:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-item:nth-child(5) a:nth-child(2){
+    position: relative;
+    top: 8px;
+    /* right: 90px; */
+}
+.gmail{
+    position: relative;
+    top: 10px;
+}
+.nimadir-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
