@@ -447,3 +447,71 @@ h2{
 p{
     cursor: pointer;
 }
+.title-header-box-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+.title-headeer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-headeer-box p{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    width: 350px;
+    font-size: 16px;
+}
+.title-headeer-box h2{
+width: 370px;
+height: 19px;
+font-family: Golos;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* #06C3A6 */
+
+color: #06C3A6;
+}
+main .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.null{
+    background-image: url("./img/Group 93.png");
+    background-repeat: no-repeat;
+    height: 542.54px;
+  position: relative;
+  top: 230px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.main-null{
+    position: relative;
+    top: 150px;
+}
+.rasm-null-1 {
+    position: relative;
+     top: 120px;
+     right: 85px;
+}
+.rasm-null-2{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.rasm-null-3{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+}

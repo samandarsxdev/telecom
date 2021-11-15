@@ -7,7 +7,8 @@
 
 //   }
 
-
+const age = 'hello world'
+console.log(age.length);
 
 
 
