@@ -190,7 +190,8 @@ line-height: 19px;
 .footer-row-btn:hover{
     background-color: #4065CC;
     color: white;
-    transition: 0.3s;
+    transition: 0.3s
+    ;
 }
 .background-box{
     width: 1140px;
