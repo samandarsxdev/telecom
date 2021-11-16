@@ -119,6 +119,79 @@ line-height: 19px;
 .section-box div>p{
     margin-top: 20px;
 }
+.header-item:hover p{
+  color: #7684F0;
+  transition: 0.3s;
+}
+.header-item:nth-child(2):hover p{
+    color: #CC397B;
+    transition: 0.3s;
+}
+.header-box-row:hover h2{
+    color: #3CCC41;
+    transition: 0.5s;
+}
+.header-box-row:hover b{
+    color: #CCBF2C;
+    transition: 0.5s;
+
+}
+.navbar-img-picture:hover{
+    transform: rotate(360deg);
+    transition: 1s; 
+}
+.butoon{
+    position: relative;
+    transform: rotate(90deg);
+    top: 50px;
+    left: 1120px;
+    transform: scaleY(500px);
+}
+.background-img-picture:hover{
+
+    transform: rotate(360px);
+    transition: 0.3s;
+}
+.section-box>div{
+    padding: 15px 15px;
+    border-radius:10px;
+}
+.section-box:hover div{
+    background-color: #A6A0CC;
+    transition: 0.4s;
+}
+.section-box:hover div>p{
+    color: white;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: #CC6B68;
+    color: white;
+    transition: 0.3s;
+}
+.btn{
+    animation: btn;
+}
+.header-cover-main-btn:hover{
+    background-color: #CCA09C;
+    transition: 0.3s;
+    color: white;
+}
+.Подробнее:hover{
+    background-color: #5C9ACC;
+    transition: 0.3s;
+    color: white;
+}
+.null-btn:hover{
+    background-color: #74C8CC;
+    color: tomato;
+    transition: 0.3s;
+}
+.footer-row-btn:hover{
+    background-color: #4065CC;
+    color: white;
+    transition: 0.3s;
+}
 .background-box{
     width: 1140px;
     height: 426px;
@@ -767,4 +840,75 @@ border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* responsive qismi.... */
+
+@media (max-width:1160px){
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:1020px){
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+   
+    }
+ 
+
+@media (max-width:920px){
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .header-box-row h2{
+        text-align: center;
+        position: relative;
+        left: 200px;
+      }
+      .kokrang{
+          display: none;}
+          .container .section-box{
+              display: flex;
+              flex-wrap: wrap;
+          }
+          .section-box div{
+              width: 100px;
+          }
+}
+@media (max-width:820px){
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:720px){
+    .container{
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:620px){
+    .container{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:520px){
+    .container{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:420px){
+    .container{
+        width: 300px;
+        margin: 0 auto;
+    }
 }
